@@ -1,0 +1,222 @@
+name: Desert
+pauseCountdown: 60
+gameTime: 1800
+world: World
+pos1: -168.5;5.0;-168.5;174.46045;8.249942
+pos2: 169.5;255.0;169.5;174.46045;8.249942
+specSpawn: 0.5;71.0;0.5;181.81055;-6.000072
+lobbySpawn: 0.5;125.0;0.5;181.81055;-6.000072
+lobbySpawnWorld: World
+minPlayers: 2
+teams:
+  cyan:
+    isNewColor: true
+    color: CYAN
+    maxPlayers: 1
+    bed: -39.0;73.0;-45.0;0.0;0.0
+    spawn: -51.5;74.0;-44.5;270.0;90.0
+  white:
+    isNewColor: true
+    color: WHITE
+    maxPlayers: 1
+    bed: -2.0;73.0;-82.0;0.0;0.0
+    spawn: -1.5;74.0;-94.5;359.0;90.0
+  red:
+    isNewColor: true
+    color: RED
+    maxPlayers: 1
+    bed: 35.0;73.0;-45.0;0.0;0.0
+    spawn: 48.5;74.0;-44.5;90.0;90.0
+  blue:
+    isNewColor: true
+    color: LIGHT_BLUE
+    maxPlayers: 1
+    bed: 38.0;73.0;41.0;0.0;0.0
+    spawn: 50.5;74.0;41.5;90.0;90.0
+  lime:
+    isNewColor: true
+    color: LIME
+    maxPlayers: 1
+    bed: 0.0;73.0;78.0;0.0;0.0
+    spawn: 0.5;74.0;91.5;180.0;90.0
+  yellow:
+    isNewColor: true
+    color: YELLOW
+    maxPlayers: 1
+    bed: -37.0;73.0;41.0;0.0;0.0
+    spawn: -49.5;74.0;41.5;90.0;90.0
+spawners:
+- maxSpawnedResources: 32
+  hologramEnabled: true
+  location: -0.5;71.0;-11.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: emerald
+- maxSpawnedResources: 32
+  hologramEnabled: true
+  location: -15.5;70.0;0.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: emerald
+- maxSpawnedResources: 32
+  hologramEnabled: true
+  location: 0.5;72.0;10.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: emerald
+- maxSpawnedResources: 32
+  hologramEnabled: true
+  location: 12.5;71.0;5.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: emerald
+- maxSpawnedResources: 64
+  hologramEnabled: true
+  location: 0.5;72.0;40.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: gold
+- maxSpawnedResources: 64
+  hologramEnabled: true
+  location: -40.5;72.0;-0.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: gold
+- maxSpawnedResources: 64
+  hologramEnabled: true
+  location: -1.5;72.0;-43.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: gold
+- maxSpawnedResources: 64
+  hologramEnabled: true
+  location: 41.5;72.0;-0.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: gold
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -56.5;73.0;-42.5;0.0;0.0
+  customName: Forge
+  startLevel: 1.0
+  team: cyan
+  type: iron
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -3.5;73.5;-99.5;0.0;0.0
+  customName: Forge
+  startLevel: 1.0
+  team: white
+  type: iron
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 53.5;73.0;-46.5;0.0;0.0
+  customName: Forge
+  startLevel: 1.0
+  team: red
+  type: iron
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 55.5;73.0;39.5;0.0;0.0
+  customName: Forge
+  startLevel: 1.0
+  team: blue
+  type: iron
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 2.5;73.0;96.5;0.0;0.0
+  customName: Forge
+  startLevel: 1.0
+  team: lime
+  type: iron
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -54.5;73.0;43.5;0.0;0.0
+  customName: Forge
+  startLevel: 1.0
+  team: yellow
+  type: iron
+stores:
+- loc: -49.5;74.0;37.5;1.0;0.4999725
+  parent: 'false'
+  shop: null
+  name: Villager_shop
+  type: VILLAGER
+- loc: -51.5;74.0;-48.5;0.45974454;0.7499876
+  parent: 'false'
+  shop: null
+  name: Villager_shop
+  type: VILLAGER
+- loc: -3.5;74.0;91.5;270.75998;0.8999615
+  parent: 'false'
+  shop: null
+  name: Villager_shop
+  type: VILLAGER
+- loc: -2.5;72.0;10.516562125871127;-90.54085;0.89996094
+  parent: 'false'
+  shop: null
+  name: Villager_shop
+  type: VILLAGER
+- loc: 11.5;72.0;-7.5;-270.0;0.7999653
+  parent: 'false'
+  shop: null
+  name: Villager_shop
+  type: VILLAGER
+- loc: 2.5;74.0;-94.5;90.60984;0.14999585
+  parent: 'false'
+  shop: null
+  name: Villager_shop
+  type: VILLAGER
+- loc: 48.5;74.0;-40.5;180.0;0.5499828
+  parent: 'false'
+  shop: null
+  name: Villager_shop
+  type: VILLAGER
+- loc: 50.5;74.0;45.5;180.0;0.6499492
+  parent: 'false'
+  shop: null
+  name: Villager_shop
+  type: VILLAGER
+- loc: -11.5;71.0;-9.5;-0.5;0.7499698
+  parent: 'false'
+  shop: null
+  name: Villager_shop
+  type: VILLAGER
+constant:
+  compass-enabled: inherit
+  add-wool-to-inventory-on-join: inherit
+  in-lobby-colored-leather-by-team: inherit
+  allow-crafting: inherit
+  join-randomly-after-lobby-timeout: inherit
+  join-randomly-on-lobby-join: inherit
+  keep-inventory-on-death: inherit
+  prevent-killing-villagers: inherit
+  player-drops: inherit
+  friendlyfire: inherit
+  lobbybossbar: inherit
+  bossbar: inherit
+  lobbyscoreboard: inherit
+  scoreboard: inherit
+  prevent-spawning-mobs: inherit
+  spawner-holograms: inherit
+  spawner-disable-merge: inherit
+  game-start-items: inherit
+  player-respawn-items: inherit
+  spawner-holograms-countdown: inherit
+  damage-when-player-is-not-in-arena: inherit
+  remove-unused-target-blocks: inherit
+  allow-block-falling: inherit
+  holo-above-bed: inherit
+  allow-spectator-join: inherit
+arenaTime: WORLD
+arenaWeather: default
+lobbyBossBarColor: default
+gameBossBarColor: default

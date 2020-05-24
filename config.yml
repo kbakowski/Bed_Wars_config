@@ -74,27 +74,34 @@ vault:
     kill: 5
     win: 20
 resources:
+  emerald:
+    material: EMERALD
+    color: GREEN
+    name: Emerald
+    interval: 120
+    translate: resource_emerald
+    spread: 1.0
+  diamond:
+    material: DIAMOND
+    color: AQUA
+    name: Diamond
+    interval: 45
+    translate: resource_diamond
+    spread: 1.0
   gold:
     material: GOLD_INGOT
     color: GOLD
     name: Gold
-    interval: 20
+    interval: 10
     translate: resource_gold
     spread: 1.0
   iron:
     material: IRON_INGOT
     color: GRAY
     name: Iron
-    interval: 10
-    translate: resource_iron
-    spread: 1.0
-  bronze:
-    material: BRICK
-    color: DARK_RED
-    name: Bronze
     interval: 1
-    translate: resource_bronze
-    spread: 1.0
+    translate: resource_iron
+    spread: 1.0  
 respawn:
   protection-enabled: true
   protection-time: 10
@@ -113,7 +120,7 @@ specials:
     width: 5
     height: 3
     distance: 2
-    material: CUT_SANDSTONE
+    material: CHISELED_QUARTZ_BLOCK
   tnt-sheep:
     speed: 2.0
     follow-range: 10.0
@@ -128,7 +135,7 @@ specials:
   magnet-shoes:
     probability: 75
   golem:
-    speed: 0.25
+    speed: 1.25
     follow-range: 10
     health: 20
     name-format: '%teamcolor%%team% Golem'
@@ -138,10 +145,10 @@ specials:
   teamchest:
     turn-all-enderchests-to-teamchests: true
   throwable-fireball:
-    explosion: 3.0
+    explosion: 5.0
 tnt:
-  auto-ignite: false
-  explosion-time: 8
+  auto-ignite: true
+  explosion-time: 4
 sounds:
   on_bed_destroyed: ENTITY_ENDER_DRAGON_GROWL
   on_countdown: UI_BUTTON_CLICK
