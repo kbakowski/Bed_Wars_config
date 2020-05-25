@@ -113,12 +113,12 @@ data:
      stack:
       type: STONE_SWORD
       enchants:
-       DAMAGE_ALL: 2
+       DAMAGE_ALL: 4
    - price: 7 of gold
      stack:
       type: IRON_SWORD
       enchants:
-       DAMAGE_ALL: 4
+       DAMAGE_ALL: 6
    - price: 10 of gold
      stack:
       type: STICK
@@ -129,13 +129,13 @@ data:
      stack:
       type: DIAMOND_SWORD
       enchants:
-       DAMAGE_ALL: 8
+       DAMAGE_ALL: 10
    - price: 16 of emerald
      stack:
       type: GOLDEN_AXE
       display-name: "Axe of Infinity"
       enchants:
-       DAMAGE_ALL: 6
+       DAMAGE_ALL: 11
        DURABILITY: 1
        KNOCKBACK: 2
 
@@ -156,7 +156,7 @@ data:
       type: BOW
       enchants:
        ARROW_KNOCKBACK: 1
-       ARROW_DAMAGE: 2
+       ARROW_DAMAGE: 3
    - price: 64 of emerald
      stack:
       type: BOW
@@ -226,14 +226,14 @@ data:
       meta:
        ==: ItemMeta
        meta-type: POTION
-       potion-type: INVISIBILITY
+       potion-type: invisibility
      price: 1 of emerald
    - stack:
       type: POTION
       meta:
        ==: ItemMeta
        meta-type: POTION
-       potion-type: JUMP
+       potion-type: jump
        amplifier: 5
      price: 1 of emerald
    - stack:
@@ -241,7 +241,7 @@ data:
       meta:
        ==: ItemMeta
        meta-type: POTION
-       potion-type: SPEED
+       potion-type: speed
        amplifier: 2
      price: 1 of emerald
 
