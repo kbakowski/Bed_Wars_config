@@ -20,14 +20,38 @@ spawner-holograms-countdown: true
 damage-when-player-is-not-in-arena: false
 remove-unused-target-blocks: true
 allow-block-falling: true
-game-start-items: false
-player-respawn-items: false
-gived-game-start-items: []
-gived-player-respawn-items: []
+game-start-items: true
+player-respawn-items: true
+gived-game-start-items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 1519 # write this if you use version >= 1.13 #properties: "applycolorbyteam"
+    type: LEATHER_HELMET
+  - ==: org.bukkit.inventory.ItemStack
+    v: 1519 # write this if you use version >= 1.13 #properties: "applycolorbyteam"
+    type: LEATHER_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 1519 # write this if you use version >= 1.13 #properties: "applycolorbyteam"
+    type: LEATHER_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 1519 # write this if you use version >= 1.13 #properties: "applycolorbyteam"
+    type: LEATHER_BOOTS
+gived-player-respawn-items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 1519 # write this if you use version >= 1.13 #properties: "applycolorbyteam"
+    type: LEATHER_HELMET
+  - ==: org.bukkit.inventory.ItemStack
+    v: 1519 # write this if you use version >= 1.13 #properties: "applycolorbyteam"
+    type: LEATHER_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 1519 # write this if you use version >= 1.13 #properties: "applycolorbyteam"
+    type: LEATHER_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 1519 # write this if you use version >= 1.13 #properties: "applycolorbyteam"
+    type: LEATHER_BOOTS
 disable-hunger: false
 automatic-coloring-in-shop: true
 sell-max-64-per-click-in-shop: true
-destroy-placed-blocks-by-explosion-except: ''
+destroy-placed-blocks-by-explosion-except: 'CHISELED_QUARTZ_BLOCK'
 destroy-placed-blocks-by-explosion: true
 holo-above-bed: true
 allow-spectator-join: false
@@ -123,12 +147,12 @@ specials:
     material: CHISELED_QUARTZ_BLOCK
   tnt-sheep:
     speed: 2.0
-    follow-range: 10.0
+    follow-range: 16.0
     max-target-distance: 32
     explosion-time: 8
   arrow-blocker:
     protection-time: 10
-    delay: 5
+    delay: 0
   warp-powder:
     teleport-time: 6
     delay: 0
@@ -136,9 +160,17 @@ specials:
     probability: 75
   golem:
     speed: 1.25
-    follow-range: 10
-    health: 20
+    follow-range: 16.0
+    health: 50
     name-format: '%teamcolor%%team% Golem'
+    show-name: true
+    delay: 0
+    collidable: false
+  silverfish:
+    speed: 2.5
+    follow-range: 24.0
+    health: 8
+    name-format: '%teamcolor%%team% Silverfish'
     show-name: true
     delay: 0
     collidable: false
