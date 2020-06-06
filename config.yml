@@ -177,7 +177,7 @@ specials:
   teamchest:
     turn-all-enderchests-to-teamchests: true
   throwable-fireball:
-    explosion: 5.0
+    explosion: 4.0
 tnt:
   auto-ignite: true
   explosion-time: 4
